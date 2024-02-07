@@ -1,0 +1,28 @@
+#homebutton{
+    background-color: lightskyblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+body{
+    overflow: auto;
+    display:inherit;
+    min-height: 100vh;
+}
+
+
+footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    background: lightslategray;
+    height: 60px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.container.text-center {
+    padding-top: 5px;
+}

@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <title>My Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="../resources/img/favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/hobbies.html">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../views/projects.html">Projects</a>
+                    </li>
+                </ul>
+                <img src="../resources/img/favicon.ico" alt="icon" width="40px">
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+<div>
+    <div id="projects" class="carousel slide" data-ride="carousel">
+        <ol id="carousel-bottom-indicators" class="carousel-indicators">
+            <li data-target="#projects" data-slide-to="0" class="active"></li>
+            <li data-target="#projects" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div id="carousel-item-1" class="carousel-item active">
+                <img class="h-75 d-inline-block w-100" src="../resources/img/coding.jpg"  alt="First Slide">
+                <div class="carousel-caption d-none d-md-block"">
+                    <h5 style="color:black;">
+                        <b>Mini Version Control System</b></h5>
+                    <p style="color:black;">
+                        <b>In Data Structures, we created a mini version system as our final project.</b>
+                        <a 
+                        class="btn text-white btn-floating m-1" 
+                        href="https://github.com/cu-csci-2275-fall-2023/final-project-alex-hyma" 
+                        style="background: lightskyblue;"> 
+                        Link to Project
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div id="carousel-item-2" class="carousel-item">
+                <img class="h-75 d-inline-block w-100" src="../resources/img/coding2.jpg" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Binary Search Tress with Linked Lists</h5>
+                    <p>One of our last assignments in Data Structures was to create a binary <br>
+                        search tree, from data given, with linked lists linked to each node.<br>
+                        <a 
+                        class="btn text-white btn-floating m-1" 
+                        href="https://github.com/cu-csci-2275-fall-2023/assignment-7-HymaJujjuru"
+                        style="background: lightskyblue;">
+                        Link to Project
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a id="carousel-prev" class="carousel-control-prev" href="#projects" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a id="carousel-next" class="carousel-control-next" href="#projects" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<script>
+    src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity = "sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin = "anonymous"
+</script>
+
+</body>
+
+
+<footer class="footer">
+    <div class="container text-center">
+        <a class="btn text-white btn-absolute m-1" href="#" style="background-color: #55acee;" role="button"><i
+                class="fa fa-twitter"></i></a>
+        <a class="btn text-white btn-floating m-1" href="#" style="background-color: #dd4b39;" role="button"><i
+                class="fa fa-google"></i></a>
+        <a class="btn text-white btn-floating m-1" href="https://www.linkedin.com/in/hymajujjuru/"
+            style="background-color: #0082ca;" role="button"><i class="fa fa-linkedin"></i></a>
+        <a class="btn text-white btn-floating m-1" href="#" style="background-color: #ac2bac;" role="button"><i
+                class="fa fa-instagram"></i></a>
+        <a class="btn text-white btn-floating m-1" href="https://github.com/HymaJujjuru"
+            style="background-color: #333333;" role="button"><i class="fa fa-github"></i></a>
+    </div>
+    <a style="padding:5px;"></a>
+</footer>
+
+</html>
